@@ -1,0 +1,46 @@
+.banners {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid gainsboro 2px;
+}
+.left-banners{
+    margin-right: 5px;
+}
+.rolling-banner {
+    width: 816px;
+    border-radius: 2px;
+}
+.right-banners > img{
+    width: 409px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+.bottom-section{
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+.bottom-section > li {
+    width: 100px;
+    height: 80px;
+    text-align: center;
+
+    cursor: pointer;
+}
+.bottom-section > li:hover > img {
+    width: 48px;
+    margin-bottom: 6px;
+}
+.bottom-section > li > img {
+    width: 45px;
+    margin-bottom: 5px;
+}
+.bottom-section > li > span{
+    margin-bottom: auto;
+} 
+.floating{
+    position: fixed;
+    right: 200px;
+    bottom: 100px;
+}
